@@ -2,9 +2,9 @@
   "name": "nuxtwind-daisy",
   "version": "1.0.0",
   "main": ".eslintrc.js",
-  "description": "Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.",
-  "productName": "Nuxtwind Daisy 🟢💨🌼",
-  "author": "Joff Tiquez <jofftiquez@gmail.com>",
+  "description": "Qr Menu (Nuxt.js 3 + Tailwind CSS + Daisy UI)",
+  "productName": "Qr Menu",
+  "author": "Abbas Vahidoghlu <mr.vahidoghlu@gmail.com>",
   "scripts": {
     "lint": "eslint --ext .js,.vue ./ --fix",
     "build": "nuxt build",
@@ -40,14 +40,5 @@
     "axios": "^1.6.7",
     "daisyui": "^4.7.2",
     "postcss-custom-properties": "^13.3.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ossphilippines/nuxtwind-daisy.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ossphilippines/nuxtwind-daisy/issues"
-  },
-  "homepage": "https://github.com/ossphilippines/nuxtwind-daisy#readme"
+  }
 }
