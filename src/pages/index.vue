@@ -304,7 +304,7 @@
 import { useHead } from '#app';
 import { definePageMeta } from '#imports';
 import GenericPanel from '~/components/commons/GenericPanel';
-import ogBanner from '../assets/images/nuxtwind-daisy-og-banner.jpg';
+import ogBanner from '../assets/images/QrMenuLogo.png';
 
 export default {
   components: {
@@ -316,10 +316,10 @@ export default {
     });
 
     useHead({
-      title: 'Nuxtwind Daisy 🟢💨🌼',
-      description: 'Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.',
+      title: 'Qr Menu',
+      description: 'Qr Menu (Nuxt.js 3 + Tailwind CSS + Daisy UI)',
       link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+        { rel: 'icon', type: 'image/png', href: ogBanner },
       ],
       meta: [
         {
