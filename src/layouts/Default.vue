@@ -2,7 +2,8 @@
   <div :data-theme="theme">
     <div class="navbar fixed bg-base-100 z-40 shadow-sm">
       <div class="navbar-start">
-        <a class="btn btn-ghost md:text-xl">Nuxtwind Daisy</a>
+        <NuxtLink to="/" class="btn btn-ghost md:text-xl">Nuxtwind Daisy</NuxtLink>
+        <NuxtLink to="/docs" class="btn btn-ghost md:text-xl">Docs</NuxtLink>
       </div>
       <div class="navbar-center hidden lg:flex">
         <!-- TODO: You can add menu here -->
@@ -30,7 +31,7 @@
           <a href="https://twitter.com/jrtiquez" target="_blank">
             <i class="lab la-twitter text-4xl"></i>
           </a>
-          <a href="https://github.com/ossphilippines/nuxtwind-daisy" target="_blank">
+          <a href="https://github.com/Vahidoghlu/qr-menu" target="_blank">
             <i class="lab la-github text-4xl"></i>
           </a>
           <a href="https://facebook.com/ossph.org" target="_blank">
